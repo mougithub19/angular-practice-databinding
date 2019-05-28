@@ -11,5 +11,6 @@ export class AppComponent  {
     this.message=val
   }
   message1:string="Welcome";
+  chk:boolean=true;
   
 }
