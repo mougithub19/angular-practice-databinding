@@ -7,3 +7,7 @@
   <input type="text" (change)="display($event.target.value)"/>
   <br/>Display:{{ message }}
 </p>
+<p>
+  <input type="text" [(ngModel)]="message1"/>
+  <br/>Display:{{ message1 }}
+</p>

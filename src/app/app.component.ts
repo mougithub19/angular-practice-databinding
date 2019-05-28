@@ -10,4 +10,6 @@ export class AppComponent  {
   display(val:string):void{
     this.message=val
   }
+  message1:string="Welcome";
+  
 }
