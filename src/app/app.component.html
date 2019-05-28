@@ -1,4 +1,5 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+  <input type="text" (input)="display($event.target.value)"/>
+  Display:{{ message }}
 </p>

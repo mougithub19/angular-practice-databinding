@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  message:string="";
+  display(val:string):void{
+    this.message=val
+  }
 }
